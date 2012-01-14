@@ -11,7 +11,7 @@
     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
   </head>
   <body>
-    <div class"container">
+    <div class="container">
       <header>
         <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
         <nav class="round">
@@ -19,9 +19,12 @@
             <li><%= link_to "Help", '#' %></li>
             <li><%= link_to "Help", '#' %></li>
             <li><%= link_to "Sign in", '#' %></li>
-          <ul>
-      <header>  
-    <%= yield %>
+          </ul>
+        </nav>    
+      </header>
+      <section class="round">
+        <%= yield %>
+      </section>
     </div>
   </body>
 </html>
