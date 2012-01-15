@@ -54,7 +54,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 0.2em;
@@ -65,7 +65,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a: visited {
+nav ul li a:visited {
     color: #09c;
 }
 
